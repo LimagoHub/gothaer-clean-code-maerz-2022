@@ -1,18 +1,21 @@
 package de.commands;
 
+import java.lang.reflect.InvocationTargetException;
+
 public class CommandFactory {
 
+    private static final String PREFIX = "de.commands.";
+    private static final String SUFFIX = "Command";
+
     public static Command create(String zeile) {
-        Command result = null;
-        String [] tokens = zeile.split(" ");
-        if(tokens[0].equals("Add")){
-            result = new AddCommand();
+        try {
+            String [] tokens = zeile.split(" ");
+            Command result = (Command) Class.forName(PREFIX + tokens[0] + SUFFIX).getConstructor().newInstance();
             result.parse(tokens);
+            return result;
+        } catch (Throwable e) {
+            e.printStackTrace();
+            return null;
         }
-        if(tokens[0].equals("Print")){
-            result = new PrintCommand();
-            result.parse(tokens);
-        }
-        return result;
     }
 }
