@@ -7,13 +7,16 @@ import java.util.Scanner;
 public class MyConsolenIterator implements Iterator<String> {
 
     private final Scanner scanner = new Scanner(System.in);
+    private String zeile;
     @Override
     public boolean hasNext() {
-        return false;
+        System.out.print("#>");
+        zeile = scanner.nextLine();
+        return ! "ende".equalsIgnoreCase(zeile);
     }
 
     @Override
     public String next() {
-        return null;
+        return zeile;
     }
 }
