@@ -1,0 +1,17 @@
+
+T
+java:S1854"9Remove this useless assignment to local variable "clazz".(¼» ‚ùÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "clazz".(Œ§¶
+W
+java:S2133"ARemove this object instantiation and use "Schwein.class" instead.(ğÛè´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›¦ïì
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨ŠóËúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íê­…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨ŠóËúÿÿÿÿ
+P	java:S125""<This block of commented-out lines of code should be removed.(ÿ¥
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ
+N
+java:S3011+",This accessibility update should be removed.(íË©¶úÿÿÿÿ8¥õÅåø/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿ8ŠøÂåø/

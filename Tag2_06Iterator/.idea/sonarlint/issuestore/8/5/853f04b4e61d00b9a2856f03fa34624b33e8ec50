@@ -1,0 +1,6 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‘ıãÆ
+c
+java:S2272"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(Ì­åR
+a
+java:S1128"?Remove this unused import 'javax.swing.text.html.HTMLDocument'.(„˜Òùÿÿÿÿ8ë©ïø/
